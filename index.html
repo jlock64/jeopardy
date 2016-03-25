@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
   </head>
-  <body>
+  <body ng-app="jeopardy">
+    <!-- <ng-view></ng-view> -->
     <div class="container">
-      <div class="row mainRow">
+      <div class="row mainRow" ng-controller="HomeController">
         <div class="col-md-2 col-lg-2 col-sm-2 column">
           <div class="category">
             <h4>Category</h4>

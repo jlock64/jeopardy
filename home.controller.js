@@ -7,10 +7,8 @@ angular
         .then(function(data) {
           console.log(data);
           window.glob = data;
-
+          // $scope.jeps = data;
         })
-
     }
-    // $scope.jeps = data;
     pageLoad();
   })

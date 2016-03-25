@@ -6,7 +6,6 @@ angular
     var url = encodeURIComponent('http://jservice.io/api/clues');
 
     // var cacheEngine = $cacheFactory('myCacheEngine');
-
        function getJeps() {
          return $http.get(cors + url);
        }
