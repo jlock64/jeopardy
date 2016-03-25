@@ -1,13 +1,13 @@
-<div class="row mainRow" ng-controller="HomeController">
+<div class="row mainRow">
   <div ng-repeat="jep in jeps" class="col-md-2 col-lg-2 col-sm-2 column">
     <div class="category">
-      <h4>Category</h4>
+      <h4>{{title}}</h4>
     </div>
       <ul class="list-group">
-        <li class="list-group-item"><h3>$200</h3></li>
-        <li class="list-group-item"><h3>$200</h3></li>
-        <li class="list-group-item"><h3>$200</h3></li>
-        <li class="list-group-item"><h3>$200</h3></li>
-        <li class="list-group-item"><h3>$200</h3></li>
+        <li class="list-group-item"><h3>${{jep.value}}</h3></li>
+        <li class="list-group-item"><h3>${{jep.value}}</h3></li>
+        <li class="list-group-item"><h3>${{jep.value}}</h3></li>
+        <li class="list-group-item"><h3>${{jep.value}}</h3></li>
+        <li class="list-group-item"><h3>${{jep.value}}</h3></li>
       </ul>
   </div>

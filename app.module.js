@@ -3,7 +3,7 @@ angular
   .config(function($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: "index.html",
+        templateUrl: "templates/index.html",
         controller: "HomeController"
       })
   });
