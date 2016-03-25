@@ -1,0 +1,23 @@
+{
+  "name": "jeopardy",
+  "homepage": "https://github.com/jlock64/jeopardy",
+  "authors": [
+    "Justin Lock"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "bootstrap": "^3.3.6",
+    "underscore": "^1.8.3"
+  }
+}
