@@ -1,13 +1,54 @@
 <div class="row mainRow">
-  <div ng-repeat="jep in jeps" class="col-md-2 col-lg-2 col-sm-2 column">
+  <div class="col-md-2 col-lg-2 col-sm-2 column">
     <div class="category">
       <h4>{{title}}</h4>
     </div>
       <ul class="list-group">
-        <li class="list-group-item"><h3>${{jep.value}}</h3></li>
-        <li class="list-group-item"><h3>${{jep.value}}</h3></li>
-        <li class="list-group-item"><h3>${{jep.value}}</h3></li>
-        <li class="list-group-item"><h3>${{jep.value}}</h3></li>
-        <li class="list-group-item"><h3>${{jep.value}}</h3></li>
+        <li ng-repeat="jep in jeps | limitTo: 5" ng-click="" class="list-group-item"><h3>${{jep.value}}</h3></li>
+      </ul>
+  </div>
+
+  <div class="col-md-2 col-lg-2 col-sm-2 column">
+    <div class="category">
+      <h4>{{title1}}</h4>
+    </div>
+      <ul class="list-group">
+        <li ng-repeat="jep1 in jeps1 | limitTo:5" class="list-group-item"><h3>${{jep1.value}}</h3></li>
+      </ul>
+  </div>
+
+  <div class="col-md-2 col-lg-2 col-sm-2 column">
+    <div class="category">
+      <h4>{{title2}}</h4>
+    </div>
+      <ul class="list-group">
+        <li ng-repeat="jep2 in jeps2 | limitTo:5" class="list-group-item"><h3>${{jep2.value}}</h3></li>
+      </ul>
+  </div>
+
+  <div class="col-md-2 col-lg-2 col-sm-2 column">
+    <div class="category">
+      <h4>{{title3}}</h4>
+    </div>
+      <ul class="list-group">
+        <li ng-repeat="jep3 in jeps3 | limitTo:5" accesskey=""class="list-group-item"><h3>${{jep3.value}}</h3></li>
+      </ul>
+  </div>
+
+  <div class="col-md-2 col-lg-2 col-sm-2 column">
+    <div class="category">
+      <h4>{{title4}}</h4>
+    </div>
+      <ul class="list-group">
+        <li ng-repeat="jep4 in jeps4 | limitTo:5" class="list-group-item"><h3>${{jep4.value}}</h3></li>
+      </ul>
+  </div>
+
+  <div class="col-md-2 col-lg-2 col-sm-2 column">
+    <div class="category">
+      <h4>{{title5}}</h4>
+    </div>
+      <ul class="list-group">
+        <li ng-repeat="jep5 in jeps5 | limitTo:5" class="list-group-item"><h3>${{jep5.value}}</h3></li>
       </ul>
   </div>

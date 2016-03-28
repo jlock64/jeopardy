@@ -18,16 +18,16 @@ div.category {
   margin-bottom: 10px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-  border: 1px solid #fff; }
+  border: 1px solid #fff;
+  text-align: center; }
   div.category h4 {
     font-size: 22px;
-    padding-top: 14px;
-    text-align: center;
     color: #fff;
     font-family: 'Helvetica';
     font-weight: bolder;
     text-shadow: 4px 4px 5px #000;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin: 5px 0px 0px 0px; }
 
 ul.list-group {
   margin: 0; }
