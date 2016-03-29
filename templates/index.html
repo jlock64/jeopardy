@@ -4,7 +4,7 @@
       <h4>{{category.data.title}}</h4>
     </div>
       <ul class="list-group">
-        <jeopardy-reader ng-repeat="quest in category.data.clues | limitTo: 5" value="{{quest.value}}" question="{{quest.question}}" answer="{{quest.answer}}"></jeopardy-reader>
+        <jeopardy-reader ng-repeat="quest in category.data.clues | limitTo: 5" value="{{quest.value}}" question="{{quest.question}}" answer="{{quest.answer}} modId="{{$index}}""></jeopardy-reader>
       </ul>
 
   <!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">

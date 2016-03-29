@@ -1,9 +1,9 @@
 
-  <li class="list-group-item" data-toggle="modal" data-target="#myModal"><h3>${{value}}</h3></li>
-  <!-- {{question}}   -->
+  <li class="list-group-item" data-toggle="modal" data-target="{{modId}}"><h3>${{value}}</h3></li>
+  <!-- {{question}} -->
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="{{modId}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">

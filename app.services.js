@@ -30,6 +30,7 @@ angular
         value: '@',
         question: '@',
         answer: '@',
+        modId: '@'
         // title: '@',
       }
     }
