@@ -40,6 +40,9 @@ ul.list-group {
     margin-bottom: 10px;
     background-color: #232DA5;
   }
+  li:hover {
+    cursor: pointer;
+  }
   h3 {
     margin: 0;
     padding: 0;

@@ -13,13 +13,11 @@ angular
       return $q.all([getCategories(),getCategories(),getCategories(),getCategories(),getCategories(),getCategories()]);
     }
 
-
     return {
       getCategories: getCategories,
       getSix: getSix
     }
   }) // end of JeopardyService
-
 
 
 angular
@@ -31,7 +29,8 @@ angular
       scope: {
         value: '@',
         question: '@',
-        answer: '@'
+        answer: '@',
+        // title: '@',
       }
     }
   })

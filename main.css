@@ -34,6 +34,8 @@ ul.list-group {
   ul.list-group li {
     margin-bottom: 10px;
     background-color: #232DA5; }
+  ul.list-group li:hover {
+    cursor: pointer; }
   ul.list-group h3 {
     margin: 0;
     padding: 0;
@@ -50,3 +52,16 @@ div.mainRow {
   padding-top: 13px;
   padding-bottom: 10px;
   background-color: #000; }
+
+.modal-content {
+  background-color: #232DA5;
+}
+
+.close {
+  color: #fff;
+}
+
+.question {
+  font-size: 36px;
+  color: #fff;
+}

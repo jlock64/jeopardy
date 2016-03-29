@@ -1,4 +1,21 @@
 
-  <li class="list-group-item"><h3>${{value}}</h3></li>
-  <span style="display:none">{{answer}}</span>
-  <span style="display:none">{{question}}</span>
+  <li class="list-group-item" data-toggle="modal" data-target="#myModal"><h3>${{value}}</h3></li>
+  <!-- {{question}}   -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel"></h4>
+      </div>
+      <div class="modal-body">
+        <p class="question">{{question}}</p>
+      </div>
+      <div class="modal-footer">
+        <input class="answerInput" type="text" name="name" value="" placeholder="{{answer}}">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
