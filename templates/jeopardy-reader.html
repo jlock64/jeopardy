@@ -7,14 +7,14 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel"></h4>
+        <h4 class="modal-title" id="myModalLabel">{{data.data.title}}</h4>
       </div>
       <div class="modal-body">
         <p class="question">{{question}}</p>
       </div>
       <div class="modal-footer">
-        <input class="answerInput" type="text" name="name" value="" placeholder="{{answer}}">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+        <input class="answerInput" ng-model="userAnswer" type="text" name="name" value="" placeholder="{{answer}}">
+        <button ng-click"addScore(userAnswer)" type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
       </div>
     </div>
   </div>

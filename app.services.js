@@ -34,4 +34,14 @@ angular
         // title: '@',
       }
     }
+
+    $scope.addScore = function(userAnswer) {
+      if(userAnswer === answer) {
+      console.log('correct');
+      } else {
+        console.log('wrong');
+        }
+    }
+
+
   })
